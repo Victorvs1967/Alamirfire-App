@@ -7,14 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		847A8FDEDBD9D6084EDA7722 /* Pods_Alamirfire_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAA6B6463641FEEE3741520A /* Pods_Alamirfire_App.framework */; };
 		D32D41861FFBEEDB00098E26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32D41851FFBEEDB00098E26 /* AppDelegate.swift */; };
 		D32D41881FFBEEDB00098E26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32D41871FFBEEDB00098E26 /* ViewController.swift */; };
 		D32D418B1FFBEEDB00098E26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D32D41891FFBEEDB00098E26 /* Main.storyboard */; };
 		D32D418D1FFBEEDB00098E26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D32D418C1FFBEEDB00098E26 /* Assets.xcassets */; };
 		D32D41901FFBEEDB00098E26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D32D418E1FFBEEDB00098E26 /* LaunchScreen.storyboard */; };
+		D3661CC61FFEAA0800B6EE7B /* Alamirfire_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3661CC51FFEAA0800B6EE7B /* Alamirfire_AppUITests.swift */; };
+		D3943EE91FFEA504007DD6C7 /* Alamirfire_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3943EE81FFEA504007DD6C7 /* Alamirfire_AppTests.swift */; };
+		D39EC0A91FFCDBFD00D20053 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39EC0A81FFCDBFD00D20053 /* ItemCell.swift */; };
+		D39EC0AB1FFCE15600D20053 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39EC0AA1FFCE15600D20053 /* Item.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D3661CC81FFEAA0800B6EE7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D32D417A1FFBEEDB00098E26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D32D41811FFBEEDB00098E26;
+			remoteInfo = "Alamirfire App";
+		};
+		D3943EEB1FFEA504007DD6C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D32D417A1FFBEEDB00098E26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D32D41811FFBEEDB00098E26;
+			remoteInfo = "Alamirfire App";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		529399766CAA340888E2EA90 /* Pods-Alamirfire App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alamirfire App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Alamirfire App/Pods-Alamirfire App.release.xcconfig"; sourceTree = "<group>"; };
+		99E5CB8B8E4D3E896CCF0C34 /* Pods-Alamirfire App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alamirfire App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Alamirfire App/Pods-Alamirfire App.debug.xcconfig"; sourceTree = "<group>"; };
+		AAA6B6463641FEEE3741520A /* Pods_Alamirfire_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alamirfire_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D32D41821FFBEEDB00098E26 /* Alamirfire App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alamirfire App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D32D41851FFBEEDB00098E26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D32D41871FFBEEDB00098E26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,10 +47,35 @@
 		D32D418C1FFBEEDB00098E26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D32D418F1FFBEEDB00098E26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D32D41911FFBEEDB00098E26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3661CC31FFEAA0800B6EE7B /* Alamirfire AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alamirfire AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3661CC51FFEAA0800B6EE7B /* Alamirfire_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alamirfire_AppUITests.swift; sourceTree = "<group>"; };
+		D3661CC71FFEAA0800B6EE7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D385CB731FFC220A00D51186 /* Alamofire */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Alamofire; path = Pods/Alamofire; sourceTree = "<group>"; };
+		D385CB751FFC226500D51186 /* Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Pods/Alamofire/Source/Alamofire.swift; sourceTree = "<group>"; };
+		D3943EE61FFEA504007DD6C7 /* Alamirfire AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alamirfire AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3943EE81FFEA504007DD6C7 /* Alamirfire_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alamirfire_AppTests.swift; sourceTree = "<group>"; };
+		D3943EEA1FFEA504007DD6C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D39EC0A81FFCDBFD00D20053 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		D39EC0AA1FFCE15600D20053 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D32D417F1FFBEEDB00098E26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847A8FDEDBD9D6084EDA7722 /* Pods_Alamirfire_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3661CC01FFEAA0800B6EE7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3943EE31FFEA504007DD6C7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,11 +85,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6597FB8419885552DC520F75 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99E5CB8B8E4D3E896CCF0C34 /* Pods-Alamirfire App.debug.xcconfig */,
+				529399766CAA340888E2EA90 /* Pods-Alamirfire App.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A1E6FCA4502D047F910B3E59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D385CB751FFC226500D51186 /* Alamofire.swift */,
+				D385CB731FFC220A00D51186 /* Alamofire */,
+				AAA6B6463641FEEE3741520A /* Pods_Alamirfire_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D32D41791FFBEEDB00098E26 = {
 			isa = PBXGroup;
 			children = (
 				D32D41841FFBEEDB00098E26 /* Alamirfire App */,
+				D3943EE71FFEA504007DD6C7 /* Alamirfire AppTests */,
+				D3661CC41FFEAA0800B6EE7B /* Alamirfire AppUITests */,
 				D32D41831FFBEEDB00098E26 /* Products */,
+				6597FB8419885552DC520F75 /* Pods */,
+				A1E6FCA4502D047F910B3E59 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +120,8 @@
 			isa = PBXGroup;
 			children = (
 				D32D41821FFBEEDB00098E26 /* Alamirfire App.app */,
+				D3943EE61FFEA504007DD6C7 /* Alamirfire AppTests.xctest */,
+				D3661CC31FFEAA0800B6EE7B /* Alamirfire AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,14 +129,42 @@
 		D32D41841FFBEEDB00098E26 /* Alamirfire App */ = {
 			isa = PBXGroup;
 			children = (
-				D32D41851FFBEEDB00098E26 /* AppDelegate.swift */,
 				D32D41871FFBEEDB00098E26 /* ViewController.swift */,
+				D39EC0A81FFCDBFD00D20053 /* ItemCell.swift */,
+				D39EC0AA1FFCE15600D20053 /* Item.swift */,
 				D32D41891FFBEEDB00098E26 /* Main.storyboard */,
-				D32D418C1FFBEEDB00098E26 /* Assets.xcassets */,
-				D32D418E1FFBEEDB00098E26 /* LaunchScreen.storyboard */,
+				D36F097F1FFBF30700E8604A /* Supporting Files */,
 				D32D41911FFBEEDB00098E26 /* Info.plist */,
 			);
 			path = "Alamirfire App";
+			sourceTree = "<group>";
+		};
+		D3661CC41FFEAA0800B6EE7B /* Alamirfire AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3661CC51FFEAA0800B6EE7B /* Alamirfire_AppUITests.swift */,
+				D3661CC71FFEAA0800B6EE7B /* Info.plist */,
+			);
+			path = "Alamirfire AppUITests";
+			sourceTree = "<group>";
+		};
+		D36F097F1FFBF30700E8604A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D32D41851FFBEEDB00098E26 /* AppDelegate.swift */,
+				D32D418C1FFBEEDB00098E26 /* Assets.xcassets */,
+				D32D418E1FFBEEDB00098E26 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3943EE71FFEA504007DD6C7 /* Alamirfire AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3943EE81FFEA504007DD6C7 /* Alamirfire_AppTests.swift */,
+				D3943EEA1FFEA504007DD6C7 /* Info.plist */,
+			);
+			path = "Alamirfire AppTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D32D41941FFBEEDB00098E26 /* Build configuration list for PBXNativeTarget "Alamirfire App" */;
 			buildPhases = (
+				5BEABD5D757A9518C6E1ECDE /* [CP] Check Pods Manifest.lock */,
 				D32D417E1FFBEEDB00098E26 /* Sources */,
 				D32D417F1FFBEEDB00098E26 /* Frameworks */,
 				D32D41801FFBEEDB00098E26 /* Resources */,
+				4B98AC7F280D17015CDE6021 /* [CP] Embed Pods Frameworks */,
+				74EEE24183976837E90746AC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -83,6 +189,42 @@
 			productName = "Alamirfire App";
 			productReference = D32D41821FFBEEDB00098E26 /* Alamirfire App.app */;
 			productType = "com.apple.product-type.application";
+		};
+		D3661CC21FFEAA0800B6EE7B /* Alamirfire AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3661CCC1FFEAA0800B6EE7B /* Build configuration list for PBXNativeTarget "Alamirfire AppUITests" */;
+			buildPhases = (
+				D3661CBF1FFEAA0800B6EE7B /* Sources */,
+				D3661CC01FFEAA0800B6EE7B /* Frameworks */,
+				D3661CC11FFEAA0800B6EE7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3661CC91FFEAA0800B6EE7B /* PBXTargetDependency */,
+			);
+			name = "Alamirfire AppUITests";
+			productName = "Alamirfire AppUITests";
+			productReference = D3661CC31FFEAA0800B6EE7B /* Alamirfire AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		D3943EE51FFEA504007DD6C7 /* Alamirfire AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3943EEF1FFEA504007DD6C7 /* Build configuration list for PBXNativeTarget "Alamirfire AppTests" */;
+			buildPhases = (
+				D3943EE21FFEA504007DD6C7 /* Sources */,
+				D3943EE31FFEA504007DD6C7 /* Frameworks */,
+				D3943EE41FFEA504007DD6C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3943EEC1FFEA504007DD6C7 /* PBXTargetDependency */,
+			);
+			name = "Alamirfire AppTests";
+			productName = "Alamirfire AppTests";
+			productReference = D3943EE61FFEA504007DD6C7 /* Alamirfire AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -97,6 +239,16 @@
 					D32D41811FFBEEDB00098E26 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+					};
+					D3661CC21FFEAA0800B6EE7B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D32D41811FFBEEDB00098E26;
+					};
+					D3943EE51FFEA504007DD6C7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D32D41811FFBEEDB00098E26;
 					};
 				};
 			};
@@ -114,6 +266,8 @@
 			projectRoot = "";
 			targets = (
 				D32D41811FFBEEDB00098E26 /* Alamirfire App */,
+				D3943EE51FFEA504007DD6C7 /* Alamirfire AppTests */,
+				D3661CC21FFEAA0800B6EE7B /* Alamirfire AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -129,19 +283,118 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D3661CC11FFEAA0800B6EE7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3943EE41FFEA504007DD6C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B98AC7F280D17015CDE6021 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Alamirfire App/Pods-Alamirfire App-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Alamirfire App/Pods-Alamirfire App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BEABD5D757A9518C6E1ECDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Alamirfire App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74EEE24183976837E90746AC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Alamirfire App/Pods-Alamirfire App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D32D417E1FFBEEDB00098E26 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D39EC0AB1FFCE15600D20053 /* Item.swift in Sources */,
 				D32D41881FFBEEDB00098E26 /* ViewController.swift in Sources */,
 				D32D41861FFBEEDB00098E26 /* AppDelegate.swift in Sources */,
+				D39EC0A91FFCDBFD00D20053 /* ItemCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3661CBF1FFEAA0800B6EE7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3661CC61FFEAA0800B6EE7B /* Alamirfire_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3943EE21FFEA504007DD6C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3943EE91FFEA504007DD6C7 /* Alamirfire_AppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3661CC91FFEAA0800B6EE7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D32D41811FFBEEDB00098E26 /* Alamirfire App */;
+			targetProxy = D3661CC81FFEAA0800B6EE7B /* PBXContainerItemProxy */;
+		};
+		D3943EEC1FFEA504007DD6C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D32D41811FFBEEDB00098E26 /* Alamirfire App */;
+			targetProxy = D3943EEB1FFEA504007DD6C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D32D41891FFBEEDB00098E26 /* Main.storyboard */ = {
@@ -272,11 +525,13 @@
 		};
 		D32D41951FFBEEDB00098E26 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99E5CB8B8E4D3E896CCF0C34 /* Pods-Alamirfire App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T72DS9GRKF;
 				INFOPLIST_FILE = "Alamirfire App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "vs.Alamirfire-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,16 +542,80 @@
 		};
 		D32D41961FFBEEDB00098E26 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 529399766CAA340888E2EA90 /* Pods-Alamirfire App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T72DS9GRKF;
 				INFOPLIST_FILE = "Alamirfire App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "vs.Alamirfire-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D3661CCA1FFEAA0800B6EE7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T72DS9GRKF;
+				INFOPLIST_FILE = "Alamirfire AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vs.Alamirfire-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Alamirfire App";
+			};
+			name = Debug;
+		};
+		D3661CCB1FFEAA0800B6EE7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T72DS9GRKF;
+				INFOPLIST_FILE = "Alamirfire AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vs.Alamirfire-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Alamirfire App";
+			};
+			name = Release;
+		};
+		D3943EED1FFEA504007DD6C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T72DS9GRKF;
+				INFOPLIST_FILE = "Alamirfire AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vs.Alamirfire-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alamirfire App.app/Alamirfire App";
+			};
+			name = Debug;
+		};
+		D3943EEE1FFEA504007DD6C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T72DS9GRKF;
+				INFOPLIST_FILE = "Alamirfire AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vs.Alamirfire-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alamirfire App.app/Alamirfire App";
 			};
 			name = Release;
 		};
@@ -317,6 +636,24 @@
 			buildConfigurations = (
 				D32D41951FFBEEDB00098E26 /* Debug */,
 				D32D41961FFBEEDB00098E26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3661CCC1FFEAA0800B6EE7B /* Build configuration list for PBXNativeTarget "Alamirfire AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3661CCA1FFEAA0800B6EE7B /* Debug */,
+				D3661CCB1FFEAA0800B6EE7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3943EEF1FFEA504007DD6C7 /* Build configuration list for PBXNativeTarget "Alamirfire AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3943EED1FFEA504007DD6C7 /* Debug */,
+				D3943EEE1FFEA504007DD6C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
